@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Liver Cirrhosis Prediction</title>
+</head>
+<body>
+    <h1>Liver Cirrhosis Risk Prediction</h1>
+    <form id="predictionForm">
+        <label>
+            Age: <input type="number" id="age" required />
+        </label><br /><br />
+        <label>
+            Bilirubin Level (mg/dL): <input type="number" step="0.01" id="bilirubin" required />
+        </label><br /><br />
+        <label>
+            Albumin Level (g/dL): <input type="number" step="0.01" id="albumin" required />
+        </label><br /><br />
+        <button type="submit">Predict</button>
+    </form>
+
+    <h2>Prediction Result:</h2>
+    <div id="result"></div>
+
+    
